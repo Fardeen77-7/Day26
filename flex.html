@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Example</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around; /* space between items */
+            align-items: center;           /* vertical alignment */
+            height: 300px;
+            border: 2px solid rgb(215, 11, 11);
+            flex-direction: column-reverse;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(20, 207, 136);
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Flexbox Layout</h2>
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+
+</body>
+</html>
